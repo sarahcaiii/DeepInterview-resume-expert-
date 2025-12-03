@@ -9,7 +9,7 @@ import {
 const ChatInterface = ({ targetRole, language, onBack }) => {
   
   // 1. 配置参数
-  const API_KEY = "XXXXXX"; 
+  const API_KEY = "YOUR_API_KEY_HERE"; 
 
   const API_URL = "https://ark.cn-beijing.volces.com/api/v3/chat/completions";
   const MODEL_ID = "deepseek-v3-250324"; 
